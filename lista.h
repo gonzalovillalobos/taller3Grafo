@@ -8,17 +8,17 @@
 #define STDIO_H
 #endif
 
+#ifndef GRAFO_H
+#include "grafo.h"
+#define GRAFO_H
+#endif
+
 #ifndef COLA_H
 #include "cola.h"
 #define COLA_H
 #endif
 
-typedef struct t_nodo{
-	char etiqueta, color;
-	int distancia;
-	struct t_nodo *vecino;
-} nodo;
-
-
-
-
+#ifndef LISTA_H
+#include "lista.h"
+#define LISTA_H
+#endif

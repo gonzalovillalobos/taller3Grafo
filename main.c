@@ -8,7 +8,16 @@
 #define STDIO_H
 #endif
 
+#ifndef COLA_H
+#include "cola.h"
+#define COLA_H
+#endif
+
 #ifndef GRAFO_H
 #include "grafo.h"
-#define grafo_H
+#define GRAFO_H
 #endif
+
+int main(){
+	cola *col=inicia_cola();
+}
