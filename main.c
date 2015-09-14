@@ -19,5 +19,5 @@
 #endif
 
 int main(){
-	cola *col=inicia_cola();
+	
 }

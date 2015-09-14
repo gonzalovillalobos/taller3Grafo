@@ -8,17 +8,23 @@
 #define STDIO_H
 #endif
 
-#ifndef COLA_H
-#include "cola.h"
-#define COLA_H
-#endif
 
-typedef struct t_nodo{
-	char etiqueta, color;
+typedef struct t_grafo{
+	char padre, etiqueta, color;
 	int distancia;
-	struct t_nodo *vecino;
-} nodo;
+	struct t_grafo *vecino;
+} Grafo;
 
+grafo inicia_grafo(){
+	grafo *aux;
+	aux=(grafo*)malloc(sizeof(grafo));
+	aux->padre=
+	aux->color=
+	aux->distancia=-1;
+	aux->etiqueta=
+	aux->vecino=NULL;
+	return(aux);
+}
 
 
 
